@@ -1,0 +1,80 @@
+/**
+ * Notification bar main CSS
+ */
+.nbbfem_notice{
+    transition: all 0.5s ease;
+    color: #000;
+    position: relative;
+}
+.nbbfem_notice p{
+    margin-bottom: 0;
+}
+.nbbfem_notice .elementor-widget:not(:last-child){
+    margin-bottom: 0;
+}
+
+/*position*/
+.nbbfem_notice_pos__bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+/*Close Button*/
+.nbbfem_close_btn{
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    line-height: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    background: #000;
+    border: 1px solid transparent;
+    color: white;
+    text-align: center;
+    opacity: 0.6;
+    z-index: 1;
+    margin-top: -3px;
+    right: 0;
+}
+
+/*right top*/
+.nbbfem_close_pos__top_right .nbbfem_close_btn{
+    right: 5px;
+    top: 5px;
+    margin-top: 0;
+}
+
+/*middle right*/
+.nbbfem_close_pos__middle_right .nbbfem_close_btn{
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/*left top*/
+.nbbfem_close_pos__top_left .nbbfem_close_btn{
+    left: 5px;
+    top: 5px;
+    right: auto;
+    margin-top: 0;
+}
+
+/*middle left*/
+.nbbfem_close_pos__middle_left .nbbfem_close_btn{
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nbbfem_close_status__ .nbbfem_close_btn{
+    display: none;
+}
+
+.nbbfem_info_text_wrapper,
+.nbbfem_info_text_wrapper *{
+    display: inline-block;
+}

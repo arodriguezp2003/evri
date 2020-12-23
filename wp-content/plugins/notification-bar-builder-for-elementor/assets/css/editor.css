@@ -1,0 +1,37 @@
+/*Add branding icon for each addons*/
+.elementor-element .icon {
+  position: relative;
+}
+.elementor-element .icon .nbbfem_icon::after {
+    content: "NBB";
+    font-size: 11px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background: #00c2ff;
+    color: #fff;
+    padding: 2px 5px 3px 5px;
+    border-radius: 3px;
+    font-family: monospace;
+    text-align: center;
+    line-height: 1;
+    vertical-align: middle;
+}
+.elementor-control-nbbfem_display_on_heading{
+    padding-bottom: 0;
+}
+.nbbfem_notice .elementor-widget:not(:last-child) {
+    margin-bottom: 0;
+}
+.nbbfem_lock{
+    opacity: .7;
+    padding-top: 15px;
+}
+.nbbfem_lock input,
+.nbbfem_lock select{
+    pointer-events: none;
+}
+.elementor-panel .nbbfem_pro_label{
+    color: red;
+    font-weight: bold;
+}

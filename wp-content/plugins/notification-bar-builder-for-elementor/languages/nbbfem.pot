@@ -1,0 +1,407 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Notification Bar Builder for Elementor\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-30 06:27+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.3; wp-5.5.2"
+
+#: includes/em-init.php:136
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr ""
+
+#. 1: Plugin name 2: PHP 3: Required PHP version
+#: includes/em-init.php:104 includes/em-init.php:120
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: includes/widgets/button-with-info.php:234
+msgid "Add your custom id WITHOUT the Pound key. e.g: my-id"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:191
+msgid "After"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:54
+msgid "Alignment"
+msgstr ""
+
+#: includes/document-controls.php:23 includes/document-controls.php:32
+msgid "All Pages"
+msgstr ""
+
+#: includes/document-controls.php:24 includes/document-controls.php:33
+msgid "All Posts"
+msgstr ""
+
+#: includes/document-controls.php:25
+msgid "All Products"
+msgstr ""
+
+#: includes/document-controls.php:132
+msgid "Allow User To Close Notice"
+msgstr ""
+
+#: includes/document-controls.php:146
+msgid "Appear Again Duration"
+msgstr ""
+
+#. Author of the plugin
+msgid "AZ_Plugins"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:359
+#: includes/widgets/button-with-info.php:393
+msgid "Background Color"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:190
+msgid "Before"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:404
+msgid "Border Color"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:438
+msgid "Border Radius"
+msgstr ""
+
+#: includes/document-controls.php:167
+msgid "Bottom"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:114
+#: includes/widgets/button-with-info.php:312
+msgid "Button"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:228
+msgid "Button ID"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:18
+msgid "Button With Info"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:62
+msgid "Center"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:143
+#: includes/widgets/button-with-info.php:144
+msgid "Click here"
+msgstr ""
+
+#: includes/document-controls.php:177
+msgid "Close Icon Position"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:129
+msgid "Danger"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:125
+msgid "Default"
+msgstr ""
+
+#: includes/document-controls.php:148
+msgid ""
+"Default:7 (days). This means the users will see the notice again after 7 "
+"days."
+msgstr ""
+
+#: includes/document-controls.php:47
+msgid "Display On For:"
+msgstr ""
+
+#: includes/document-controls.php:134
+msgid "Don't show the notice again after close."
+msgstr ""
+
+#: includes/em-init.php:122 includes/em-init.php:138
+msgid "Elementor"
+msgstr ""
+
+#: includes/document-controls.php:19 includes/document-controls.php:29
+msgid "Entire Website"
+msgstr ""
+
+#: includes/document-controls.php:67
+msgid "Exclude IDs"
+msgstr ""
+
+#: includes/document-controls.php:91
+msgid "Exclude Page IDs"
+msgstr ""
+
+#: includes/document-controls.php:104
+msgid "Exclude Post IDs"
+msgstr ""
+
+#: includes/document-controls.php:118
+msgid "Exclude Product IDs"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:39
+msgid "Extra Large"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:35
+msgid "Extra Small"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:47
+msgid "General Options"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:374
+msgid "Hover"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:418
+msgid "Hover Animation"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:101
+msgid "HTML tags are allowed"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://demo.azplugins.com/notification-bar"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://azplugins.com"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:156
+msgid "https://your-link.com"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:177
+msgid "Icon"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:186
+msgid "Icon Position"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:202
+msgid "Icon Spacing"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:80
+msgid ""
+"If you need button placed left & the info placed to the right. Enable this "
+"feature."
+msgstr ""
+
+#: includes/widgets/button-with-info.php:126
+msgid "Info"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:93
+#: includes/widgets/button-with-info.php:248
+msgid "Info Text"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"It allows elementor to build a notification bar using the page builder & use "
+"it any pages,posts,products etc."
+msgstr ""
+
+#: includes/widgets/button-with-info.php:38
+msgid "Large"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:58
+msgid "Left"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:151
+msgid "Link"
+msgstr ""
+
+#: includes/document-controls.php:49
+msgid "Locations for where this notification should appear"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:299
+#: includes/widgets/button-with-info.php:471
+msgid "Margin"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:37
+msgid "Medium"
+msgstr ""
+
+#: includes/document-controls.php:183
+msgid "Middle Left"
+msgstr ""
+
+#: includes/document-controls.php:182
+msgid "Middle Right"
+msgstr ""
+
+#: includes/document-controls.php:136 includes/widgets/button-with-info.php:82
+msgid "No"
+msgstr ""
+
+#: includes/document-controls.php:163
+msgid "Nofification Position"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:340
+msgid "Normal"
+msgstr ""
+
+#: includes/custom-posts.php:8
+msgctxt "Notice"
+msgid "Notification Bar"
+msgstr ""
+
+#: includes/em-init.php:105 includes/em-init.php:121 includes/em-init.php:137
+msgid "Notification Bar Builder"
+msgstr ""
+
+#. Name of the plugin
+msgid "Notification Bar Builder for Elementor"
+msgstr ""
+
+#: includes/custom-posts.php:7
+msgctxt "Notification Bars"
+msgid "Notification Bars"
+msgstr ""
+
+#: includes/document-controls.php:39
+msgid "Notification Options"
+msgstr ""
+
+#: includes/document-controls.php:20 includes/document-controls.php:30
+msgid "Only Homepage"
+msgstr ""
+
+#: includes/document-controls.php:21
+msgid "Only Shop Page"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:287
+#: includes/widgets/button-with-info.php:458
+msgid "Padding"
+msgstr ""
+
+#: includes/document-controls.php:79
+msgid "Page/Post/Products ID's"
+msgstr ""
+
+#: includes/em-init.php:106
+msgid "PHP"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:235
+msgid ""
+"Please make sure the ID is unique and not used elsewhere on the page this "
+"form is displayed. This field allows <code>A-z 0-9</code> & underscore chars "
+"without spaces."
+msgstr ""
+
+#: includes/widgets/button-with-info.php:66
+msgid "Right"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:166
+msgid "Size"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:36
+msgid "Small"
+msgstr ""
+
+#: includes/document-controls.php:31
+msgid "Specific page/post ID's"
+msgstr ""
+
+#: includes/document-controls.php:22
+msgid "Specific page/post/product ID's"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:127
+msgid "Success"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:78
+msgid "Swap Elements"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:100
+#: includes/widgets/button-with-info.php:138
+msgid "Text"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:256
+#: includes/widgets/button-with-info.php:347
+#: includes/widgets/button-with-info.php:381
+msgid "Text Color"
+msgstr ""
+
+#: includes/document-controls.php:166
+msgid "Top"
+msgstr ""
+
+#: includes/document-controls.php:181
+msgid "Top Left"
+msgstr ""
+
+#: includes/document-controls.php:180
+msgid "Top Right"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:121
+msgid "Type"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:106
+msgid "Upcoming latest shop update notice"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:219
+msgid "View"
+msgstr ""
+
+#: includes/widgets/button-with-info.php:128
+msgid "Warning"
+msgstr ""
+
+#: includes/document-controls.php:94
+msgid "Write the page IDs here seperated by comma. e.g: 3,5,10"
+msgstr ""
+
+#: includes/document-controls.php:69 includes/document-controls.php:81
+msgid "Write the page/post/product IDs here seperated by comma. e.g: 3,5,10"
+msgstr ""
+
+#: includes/document-controls.php:107
+msgid "Write the post IDs here seperated by comma. e.g: 3,5,10"
+msgstr ""
+
+#: includes/document-controls.php:121
+msgid "Write the products IDs here seperated by comma. e.g: 3,5,10"
+msgstr ""
+
+#: includes/document-controls.php:135 includes/widgets/button-with-info.php:81
+msgid "Yes"
+msgstr ""

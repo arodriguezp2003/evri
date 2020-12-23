@@ -1,0 +1,27 @@
+th.column-price {
+	width: 10%;
+}
+
+th.column-currency {
+	width: 10%
+}
+
+th.column-duration {
+	width: 10%
+}
+
+th.column-interval {
+	width: 10%
+}
+
+th.column-descr {
+	width: 20%
+}
+
+th.column-trial {
+	width: 10%
+}
+
+th.column-mode {
+	width: 5%
+}

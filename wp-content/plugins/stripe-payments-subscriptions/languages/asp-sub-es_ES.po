@@ -1,0 +1,817 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Stripe Payments Subscriptions Addon\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-11 17:28+0000\n"
+"PO-Revision-Date: 2019-05-11 17:32+0000\n"
+"Last-Translator: admin <labarta31@gmail.com>\n"
+"Language-Team: Español\n"
+"Language: es-ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.2; wp-5.2"
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:42
+msgid "Subscriptions Settings"
+msgstr "Ajustes suscripciones"
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:45
+msgid "All plan payments"
+msgstr "Todos los pagos del plan"
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:47
+msgid "First plan payment only"
+msgstr "Primer pago del plan solamente"
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:49
+#, php-format
+msgid "All plan payments for %s month(s)"
+msgstr "Todos los pagos del plan para %s mes (es)"
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:50
+msgid "Specify how coupon discount should be applied to subscription payments."
+msgstr ""
+"Especifica cómo se debe aplicar el descuento del cupón a los pagos de "
+"suscripción."
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:93
+msgid "Checking..."
+msgstr "Comprobando..."
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:129 
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:285 
+#: stripe-payments-subscriptions/admin/asp-sub-subs-post-type.php:30 
+#: stripe-payments-subscriptions/admin/asp-sub-subs-post-type.php:42
+msgid "Subscriptions"
+msgstr "Suscripciones"
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:131
+msgid "Live Webhook Status"
+msgstr "Estado del webhook en vivo"
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:134
+msgid "Live Webhook URL"
+msgstr "URL del webhook en vivo"
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:135
+msgid "This is live webhook URL."
+msgstr "Esta es la URL del webhook en vivo."
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:138
+msgid "Live Webhook Signing Secret"
+msgstr "Registro secreto webhook en vivo"
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:139
+msgid "Live webhook signing secret from your Stripe account."
+msgstr "Registro secreto webhook en vivo desde tu cuenta de Stripe."
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:142
+msgid "Test Webhook Status"
+msgstr "Estado del webhook en prueba"
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:145
+msgid "Test Webhook URL"
+msgstr "URL del webhook en prueba"
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:146
+msgid "This is test webhook URL."
+msgstr "Esta es la URL del webhook en prueba."
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:149
+msgid "Webhook Signing Secret"
+msgstr "Registro secreto webhook"
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:150
+msgid "Webhook signing secret from your Stripe account."
+msgstr "Registro secreto webhook desde tu cuenta de Stripe."
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:153
+msgid "Test Webhook Signing Secret"
+msgstr "Registro secreto webhook en prueba"
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:154
+msgid "Test webhook signing secret from your Stripe account."
+msgstr "Registro secreto webhook en prueba desde tu cuenta de Stripe."
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:157
+msgid "Delete Webhooks"
+msgstr "Eliminar webhooks"
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:158
+msgid ""
+"Use this button if you have issues with webhooks or want to uninstall the "
+"addon."
+msgstr ""
+"Utiliza este botón si tienes problemas con los webhooks o si deseas "
+"desinstalar el complemento."
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:161
+msgid "Clear Cache"
+msgstr "Limpiar caché"
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:162
+msgid ""
+"Clear plans cache. Useful if you have updated plan details in your Stripe "
+"Dashboard and want the changes to be reflected on the site."
+msgstr ""
+"Borrar los planes de caché. Es útil si has actualizado los detalles del plan "
+"en tu tablero de control de Stripe y deseas que los cambios se reflejen en "
+"el sitio."
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:165
+msgid "Email Settings"
+msgstr "Ajustes del correo electrónico"
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:167
+msgid "Send Email On CC Expire"
+msgstr "Enviar correo electrónico con CC Expire"
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:168
+msgid ""
+"If enabled, email is sent to customer when his\\her credit card on file is "
+"going to expire soon."
+msgstr ""
+"Si está habilitado, el correo electrónico se envía al cliente cuando su "
+"tarjeta de crédito archivada caducará pronto."
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:170
+msgid "From Email Address"
+msgstr "Dirección origen del correo electrónico"
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:171
+msgid "Enter email From address."
+msgstr "Introduce la dirección de origen del correo electrónico."
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:173
+msgid "Email Subject"
+msgstr "Asunto del correo electrónico"
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:174
+msgid "Enter email subject."
+msgstr "Introduce el asunto del correo electrónico"
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:178
+msgid "Current card's brand. Example: VISA, MasterCard."
+msgstr "Marca de la tarjeta actual. Ejemplo: VISA, MasterCard."
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:179
+msgid "Current card's last 4 digits. Example: 1234"
+msgstr "Últimos 4 dígitos de la tarjeta actual. Ejemplo: 1234"
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:180
+msgid "Current card's expiry month. Example: 8"
+msgstr "Mes de vencimiento de la tarjeta actual. Ejemplo: 8"
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:181
+msgid "Current card's expiry year. Example: 2020"
+msgstr "Año de vencimiento de la tarjeta actual. Ejemplo 2020"
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:182
+msgid "URL that customer should visit to update credit card details."
+msgstr ""
+"URL que el cliente debe visitar para actualizar los detalles de la tarjeta "
+"de crédito."
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:190
+msgid "Email Body"
+msgstr "Cuerpo del correo electrónico"
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:191
+msgid ""
+"Enter email body. You can use the following email tags in this email body "
+"field:"
+msgstr ""
+"Introduce el cuerpo del correo electrónico. Puedes usar las siguientes "
+"etiquetas de correo electrónico en el campo del cuerpo del correo "
+"electrónico:"
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:211
+msgid "One-time payment"
+msgstr "Pago único"
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:214
+msgid "Subscription"
+msgstr "Suscripción"
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:240
+msgid "(No plan)"
+msgstr "(No plan)"
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:243
+msgid "[Test]"
+msgstr "[Test]"
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:252
+msgid ""
+"No subscription plans created yet. You need to <a href=\"post-new.php?"
+"post_type=asp_sub_plan\">create one</a> first."
+msgstr ""
+"No hay planes de suscripción creados todavía. Primero debes <a href=\"post-"
+"new.php?post_type=asp_sub_plan\">crear uno</a>."
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:257
+msgid "Plan ID:"
+msgstr "ID del plan:"
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:259
+msgid ""
+"Specify Stripe plan ID for this product. Leave it blank if you don't want to "
+"use subscription for the product."
+msgstr ""
+"Especifica la ID del plan de Stripe para este producto. Déjelo en blanco si "
+"no deseas utilizar la suscripción para el producto."
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:298
+msgid "Clearing..."
+msgstr "Limpiando..."
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:299 
+#: stripe-payments-subscriptions/asp-sub-main.php:800
+msgid "Error occurred:"
+msgstr "Error ocurrido:"
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:300
+msgid "Creating webhook..."
+msgstr "Creando webhook ..."
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:301
+msgid "Deleting..."
+msgstr "Eliminando..."
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:309
+msgid "Displays subscription cancellation URL"
+msgstr "Muestra la URL de cancelación de suscripción"
+
+#: stripe-payments-subscriptions/admin/asp-sub-admin-menu.php:310
+msgid "Displays update credit card URL"
+msgstr "Muestra la URL actualizada de la tarjeta de crédito"
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:27
+msgctxt "Post Type General Name"
+msgid "Subscription Plans"
+msgstr "Planes de suscripción"
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:28
+msgctxt "Post Type Singular Name"
+msgid "Subscription Plan"
+msgstr "Plan de suscripción"
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:29
+msgid "Parent Plan:"
+msgstr "Plan principal:"
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:30 
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:42
+msgid "Subscription Plans"
+msgstr "Planes de suscripción"
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:31
+msgid "View Plan"
+msgstr "Ver plan"
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:32 
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:33
+msgid "Add New Plan"
+msgstr "Añadir nuevo plan"
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:34
+msgid "Edit Plan"
+msgstr "Editar plan"
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:35
+msgid "Update Plan"
+msgstr "Actualizar plan"
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:36
+msgid "Search Plan"
+msgstr "Buscar plan"
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:37
+msgid "No plans created yet."
+msgstr "No hay planes creados todavía."
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:38 
+#: stripe-payments-subscriptions/admin/asp-sub-subs-post-type.php:38
+msgid "Not found in Trash"
+msgstr "No se encuentra en la papelera"
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:41
+msgid "plans"
+msgstr "planes"
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:87 
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:88
+msgid "Plan updated."
+msgstr "Plan actualizado."
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:89
+msgid "Plan created."
+msgstr "Plan creado."
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:90
+msgid "Plan draft updated."
+msgstr "Plan en proyecto actualizado."
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:105
+msgid "Plan Name"
+msgstr "Nombre del plan"
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:106 
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:269
+msgid "Mode"
+msgstr "Modo"
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:107 
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:270
+msgid "Currency"
+msgstr "Moneda"
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:108 
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:271 
+#: stripe-payments-subscriptions/admin/asp-sub-subs-post-type.php:375
+msgid "Amount"
+msgstr "Importe"
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:109
+msgid "Interval"
+msgstr "Intervalo"
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:110
+msgid "Duration"
+msgstr "Duración"
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:111
+msgid "Trial Days"
+msgstr "Días de prueba"
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:112
+msgid "Description"
+msgstr "Descripción"
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:199
+#, php-format
+msgid "Variable (%s)"
+msgstr "Variable (%s)"
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:207
+msgid "Variable"
+msgstr "Variable"
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:272
+msgid "Billing Interval"
+msgstr "Intervalo de facturación"
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:273
+msgid "Duration (Optional)"
+msgstr "Duración (Opcional)"
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:274
+msgid "Trial Period (Optional)"
+msgstr "Período de prueba (Opcional)"
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:283
+msgid "Live mode"
+msgstr "Modo en vivo"
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:285
+msgid "Test mode"
+msgstr "Modo en prueba"
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:311
+msgid ""
+"Number of payments that will be charged before the customer's subscription "
+"is cancelled. Enter 0 if you want this plan's payment to continue until the "
+"subscription is canceled."
+msgstr ""
+"Número de pagos que se cobrarán antes de que se cancele la suscripción del "
+"cliente. Ingresa \"0\" si deseas que el pago de este plan continúe hasta que "
+"se cancele la suscripción."
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:325
+msgid "Select plan currency."
+msgstr "Selecciona la moneda del plan."
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:329 
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:388
+msgid ""
+"Note: You won't be able to change this value once the plan is created and if "
+"plan is not variable."
+msgstr ""
+"Nota: no podrás cambiar este valor una vez que se haya creado el plan y si "
+"el plan no es variable."
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:333
+msgid "Make currency variable"
+msgstr "Hacer moneda variable"
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:334
+msgid "Enables your customers to select currency."
+msgstr "Permite a tus clientes seleccionar la moneda."
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:348 
+#: stripe-payments-subscriptions/inc/asp-sub-utils-class.php:256
+msgid "days"
+msgstr "días"
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:349 
+#: stripe-payments-subscriptions/inc/asp-sub-utils-class.php:257
+msgid "weeks"
+msgstr "semanas"
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:350 
+#: stripe-payments-subscriptions/inc/asp-sub-utils-class.php:258
+msgid "months"
+msgstr "meses"
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:362
+msgid ""
+"Enter billing interval. Customers subscribed to this plan will be charged "
+"accordingly. For example: if you specify \"30 days\", it means the customer "
+"will be charged every 30 days."
+msgstr ""
+"Introduce el intervalo de facturación. A los clientes suscritos a este plan "
+"se les cobrará en consecuencia. Por ejemplo: si especificas \"30 días\", "
+"significa que se le cobrará al cliente cada 30 días."
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:364
+msgid "Note: You won't be able to change this value once the plan is created."
+msgstr "Nota: no podrás cambiar este valor una vez que se haya creado el plan."
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:384
+msgid ""
+"Enter subscription price amount. This amount will be charged from the "
+"customers on every billing cycle."
+msgstr ""
+"Introduce el importe del precio de suscripción. Esta cantidad se cobrará a "
+"los clientes en cada ciclo de facturación."
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:392
+msgid "Make amount variable"
+msgstr "Hacer importe variable"
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:393
+msgid "Enables your customers to enter their own amount."
+msgstr "Permite a tus clientes ingresar su propio importe."
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:408
+msgid ""
+"If you include a trial period, the customers won't be charged until the "
+"trial period ends. Put \"0\" if you don't offer trial period for this plan."
+msgstr ""
+"Si incluyes un período de prueba, no se cobrará a los clientes hasta que "
+"finalice el período de prueba. Pon \"0\" si no ofreces un período de prueba "
+"para este plan."
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:428
+msgid "Stripe error occurred:"
+msgstr "Stripe error ocurrido:"
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:445
+msgid "Please specify valid trial interval."
+msgstr "Por favor, especifica un intervalo de prueba válido."
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:452
+msgid "Please specify valid duration."
+msgstr "Por favor, especifica una duración válida."
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:464
+msgid "Please specify plan title."
+msgstr "Por favor, especifica el título del plan."
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:469
+msgid "Please select plan currency."
+msgstr "Por favor, selecciona la moneda del plan."
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:477
+msgid "Please specify valid plan price."
+msgstr "Por favor, especifica un precio válido para el plan."
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:486
+msgid "Please select valid interval."
+msgstr "Por favor, selecciona un intervalo válido."
+
+#: stripe-payments-subscriptions/admin/asp-sub-plans-post-type.php:496
+msgid "Please specify valid interval."
+msgstr "Por favor, especifica un intervalo válido."
+
+#: stripe-payments-subscriptions/admin/asp-sub-subs-post-type.php:27
+msgctxt "Post Type General Name"
+msgid "Subscriptions"
+msgstr "Suscripciones"
+
+#: stripe-payments-subscriptions/admin/asp-sub-subs-post-type.php:28
+msgctxt "Post Type Singular Name"
+msgid "Subscription"
+msgstr "Suscripción"
+
+#: stripe-payments-subscriptions/admin/asp-sub-subs-post-type.php:29
+msgid "Parent Subscription:"
+msgstr "Suscripción principal:"
+
+#: stripe-payments-subscriptions/admin/asp-sub-subs-post-type.php:31 
+#: stripe-payments-subscriptions/admin/asp-sub-subs-post-type.php:34
+msgid "View Subscription"
+msgstr "Ver suscripción"
+
+#: stripe-payments-subscriptions/admin/asp-sub-subs-post-type.php:32 
+#: stripe-payments-subscriptions/admin/asp-sub-subs-post-type.php:33
+msgid "Add New Subscription"
+msgstr "Añadir nueva suscripción"
+
+#: stripe-payments-subscriptions/admin/asp-sub-subs-post-type.php:35
+msgid "Update Subscription"
+msgstr "Actualizar suscripción"
+
+#: stripe-payments-subscriptions/admin/asp-sub-subs-post-type.php:36
+msgid "Search Subscriptions"
+msgstr "Buscar suscripciones"
+
+#: stripe-payments-subscriptions/admin/asp-sub-subs-post-type.php:37
+msgid "No subscriptions yet."
+msgstr "No hay suscripciones todavía."
+
+#: stripe-payments-subscriptions/admin/asp-sub-subs-post-type.php:41
+msgid "subscriptions"
+msgstr "suscripciones"
+
+#: stripe-payments-subscriptions/admin/asp-sub-subs-post-type.php:179
+msgid "ID"
+msgstr "ID"
+
+#: stripe-payments-subscriptions/admin/asp-sub-subs-post-type.php:180
+msgid "Status"
+msgstr "Estado"
+
+#: stripe-payments-subscriptions/admin/asp-sub-subs-post-type.php:181
+msgid "Subscription Plan"
+msgstr "Plan de suscripción"
+
+#: stripe-payments-subscriptions/admin/asp-sub-subs-post-type.php:182
+msgid "Subscription Date"
+msgstr "Fecha suscripción"
+
+#: stripe-payments-subscriptions/admin/asp-sub-subs-post-type.php:183
+msgid "Customer"
+msgstr "Cliente"
+
+#: stripe-payments-subscriptions/admin/asp-sub-subs-post-type.php:209
+msgid "Credit card expires at the end of current month"
+msgstr "La tarjeta de crédito expira al final del mes en curso"
+
+#: stripe-payments-subscriptions/admin/asp-sub-subs-post-type.php:230 
+#: stripe-payments-subscriptions/admin/asp-sub-subs-post-type.php:276
+msgid "Test"
+msgstr "Prueba"
+
+#: stripe-payments-subscriptions/admin/asp-sub-subs-post-type.php:259
+msgid "Subscription Details"
+msgstr "Detalles suscripción"
+
+#: stripe-payments-subscriptions/admin/asp-sub-subs-post-type.php:260
+msgid "Events"
+msgstr "Eventos"
+
+#: stripe-payments-subscriptions/admin/asp-sub-subs-post-type.php:261
+msgid "Manage Subscription"
+msgstr "Administrar suscripción"
+
+#: stripe-payments-subscriptions/admin/asp-sub-subs-post-type.php:264
+msgid "Cancellation URL"
+msgstr "URL de cancelación"
+
+#: stripe-payments-subscriptions/admin/asp-sub-subs-post-type.php:265
+msgid "Update CC details URL"
+msgstr "Actualizar URL de detalles de CC"
+
+#: stripe-payments-subscriptions/admin/asp-sub-subs-post-type.php:313
+msgid ""
+"You can use the button below to cancel the subscription. The subscription is "
+"canceled immediately once you confirm the cancellation."
+msgstr ""
+"Puedes utilizar el botón de abajo para cancelar la suscripción. La "
+"suscripción se cancela inmediatamente una vez que confirmes la cancelación."
+
+#: stripe-payments-subscriptions/admin/asp-sub-subs-post-type.php:314
+msgid "Are you sure want to cancel this subscription? This can't be undone"
+msgstr ""
+"¿Seguro que quieres cancelar esta suscripción? Esto no se puede deshacer"
+
+#: stripe-payments-subscriptions/admin/asp-sub-subs-post-type.php:314
+msgid "Cancel Subscription"
+msgstr "Cancelar suscripción"
+
+#: stripe-payments-subscriptions/admin/asp-sub-subs-post-type.php:319 
+#: stripe-payments-subscriptions/asp-sub-main.php:764
+msgid "Subscription is not active."
+msgstr "Suscripción no activa."
+
+#: stripe-payments-subscriptions/admin/asp-sub-subs-post-type.php:330
+msgid ""
+"You can send this URL to your customer so he\\she can cancel the "
+"subscription."
+msgstr ""
+"Puedes enviar esta URL a tu cliente para que él \\ ella pueda cancelar la "
+"suscripción."
+
+#: stripe-payments-subscriptions/admin/asp-sub-subs-post-type.php:350
+msgid ""
+"You can send this URL to your customer so he\\she can update credit card "
+"details."
+msgstr ""
+"Puedes enviar esta URL a tu cliente para que él \\ ella pueda actualizar los "
+"detalles de la tarjeta de crédito."
+
+#: stripe-payments-subscriptions/admin/asp-sub-subs-post-type.php:359
+msgid "No events yet."
+msgstr "No hay eventos todavía."
+
+#: stripe-payments-subscriptions/admin/asp-sub-subs-post-type.php:373
+msgid "Date"
+msgstr "Fecha"
+
+#: stripe-payments-subscriptions/admin/asp-sub-subs-post-type.php:374
+msgid "Event"
+msgstr "Evento"
+
+#: stripe-payments-subscriptions/asp-sub-main.php:83
+msgid "every"
+msgstr "cada"
+
+#: stripe-payments-subscriptions/asp-sub-main.php:88
+msgid "Total:"
+msgstr "Total:"
+
+#: stripe-payments-subscriptions/asp-sub-main.php:91
+msgid "until cancelled"
+msgstr "hasta cancelado"
+
+#: stripe-payments-subscriptions/asp-sub-main.php:115
+msgid "Settings"
+msgstr "Ajustes"
+
+#: stripe-payments-subscriptions/asp-sub-main.php:130
+msgid "Your credit card is going to expire soon"
+msgstr "La tarjeta de crédito va a caducar pronto"
+
+#: stripe-payments-subscriptions/asp-sub-main.php:131
+msgid ""
+"Hello.\n"
+"\n"
+"Your credit card {card_brand} ending in {card_last_4} is going to expire on "
+"{card_exp_month}/{card_exp_year}.\n"
+"\n"
+"Please click the link below to update it:\n"
+"{update_cc_url}"
+msgstr ""
+"Hola.\n"
+"\n"
+"Su tarjeta de crédito {card_brand} que termina en {card_last_4} expirará el "
+"{card_exp_month}/{card_exp_year}.\n"
+"\n"
+"Por favor haga clic en el enlace de abajo para actualizarlo:\n"
+"{update_cc_url}"
+
+#: stripe-payments-subscriptions/asp-sub-main.php:246
+msgid " (tax per payment)"
+msgstr "(impuesto por pago)"
+
+#: stripe-payments-subscriptions/asp-sub-main.php:732
+#, php-format
+msgid ""
+"Are you sure want to cancel your subscription to <b>%s</b>?<p>Note this "
+"can't be undone.</p>"
+msgstr ""
+"¿Seguro que quieres cancelar tu suscripción a <b>%s</b>?<p>Ten en cuenta que "
+"esto no se puede deshacer.</p>"
+
+#: stripe-payments-subscriptions/asp-sub-main.php:745
+msgid "No token provided."
+msgstr "No hay token proporcionado"
+
+#: stripe-payments-subscriptions/asp-sub-main.php:756
+msgid "No subscription found."
+msgstr "No se ha encontrado ninguna suscripción."
+
+#: stripe-payments-subscriptions/asp-sub-main.php:778
+msgid "No customer ID found for this subscription."
+msgstr "No se ha encontrado ningún ID de cliente para esta suscripción."
+
+#: stripe-payments-subscriptions/asp-sub-main.php:807
+msgid "Your card details have been updated!"
+msgstr "¡Los datos de la tarjeta han sido actualizados!"
+
+#: stripe-payments-subscriptions/asp-sub-main.php:813
+#, php-format
+msgid "Current card on file: %s ending in %d"
+msgstr "Tarjeta actual en archivo: %s expirando en %d"
+
+#: stripe-payments-subscriptions/asp-sub-main.php:823 
+#: stripe-payments-subscriptions/asp-sub-main.php:824 
+#: stripe-payments-subscriptions/asp-sub-main.php:825
+msgid "Update Card Details"
+msgstr "Actualizar detalles de la tarjeta"
+
+#: stripe-payments-subscriptions/inc/asp-sub-stripe-subs-class.php:82 
+#: stripe-payments-subscriptions/inc/asp-sub-stripe-subs-class.php:128 
+#: stripe-payments-subscriptions/inc/asp-sub-stripe-subs-class.php:152 
+#: stripe-payments-subscriptions/inc/asp-subscription-class.php:15
+msgid "Subscription not found"
+msgstr "Suscripción no encontrada"
+
+#: stripe-payments-subscriptions/inc/asp-sub-stripe-subs-class.php:135 
+#: stripe-payments-subscriptions/inc/asp-sub-stripe-subs-class.php:159 
+#: stripe-payments-subscriptions/inc/asp-subscription-class.php:43
+msgid "Subscription is not active"
+msgstr "Suscripción no activa"
+
+#: stripe-payments-subscriptions/inc/asp-sub-utils-class.php:61
+#, php-format
+msgid ""
+"<b>Stripe Payments Subscriptions Addon:</b> webhooks seem to be not "
+"configured properly. Please go to <a href=\"%s\">settings page</a> to "
+"configure them."
+msgstr ""
+"<b> Stripe Payments Subscriptions Addon: </b> los webhooks parecen no estar "
+"configurados correctamente. Vaya a la <a href=\"%s\"> página de "
+"configuración </a> para configurarlos."
+
+#: stripe-payments-subscriptions/inc/asp-sub-utils-class.php:103
+msgid "Cache has been cleared."
+msgstr "La caché se ha borrado."
+
+#: stripe-payments-subscriptions/inc/asp-sub-utils-class.php:126
+#, php-format
+msgid ""
+"Invalid API Key. Please check core plugins settings and enter valid key for "
+"%s mode."
+msgstr ""
+"Clave API no válida. Verifique la configuración de los plugins principales e "
+"ingrese una clave válida para el modo %s."
+
+#: stripe-payments-subscriptions/inc/asp-sub-utils-class.php:141
+msgid ""
+"Webhook exists. If you still have issues with webhooks, try to delete them "
+"and create again."
+msgstr ""
+"El webhook existe. Si aún tienes problemas con los webhooks, intenta "
+"eliminarlos y crearlos nuevamente."
+
+#: stripe-payments-subscriptions/inc/asp-sub-utils-class.php:150
+msgid "No webhook found. Use the button below to automatically create it."
+msgstr ""
+"No se ha encontrado ningún webhook. Usa el botón de abajo para crearlo "
+"automáticamente."
+
+#: stripe-payments-subscriptions/inc/asp-sub-utils-class.php:170
+msgid "Error occurred during webhook creation:"
+msgstr "Se produjo un error durante la creación del webhook:"
+
+#: stripe-payments-subscriptions/inc/asp-sub-utils-class.php:180
+msgid ""
+"Stripe Payments core plugin version 1.9.15+ required for this functionality"
+msgstr ""
+"Se requiere la versión 1.9.15+ del plugin Stripe Payments para esta "
+"funcionalidad"
+
+#: stripe-payments-subscriptions/inc/asp-sub-utils-class.php:208
+msgid "Invalid mode specified"
+msgstr "Modo especificado, no válido"
+
+#: stripe-payments-subscriptions/inc/asp-sub-utils-class.php:214
+msgid "Webhook exists"
+msgstr "Existe webhook "
+
+#: stripe-payments-subscriptions/inc/asp-sub-utils-class.php:224
+msgid "Webhook has been created"
+msgstr "El webhook ha sido creado"
+
+#: stripe-payments-subscriptions/inc/asp-sub-utils-class.php:256
+msgid "day"
+msgstr "día"
+
+#: stripe-payments-subscriptions/inc/asp-sub-utils-class.php:257
+msgid "week"
+msgstr "semana"
+
+#: stripe-payments-subscriptions/inc/asp-sub-utils-class.php:258
+msgid "month"
+msgstr "mes"
+
+#: stripe-payments-subscriptions/view/sub-cancel-tpl.php:39
+msgid "Subscription Cancelation"
+msgstr "Cancelación suscripción"
+
+#: stripe-payments-subscriptions/view/sub-cancel-tpl.php:115
+msgid "Yes, cancel"
+msgstr "Sí, cancelar"
+
+#: stripe-payments-subscriptions/view/sub-cancel-tpl.php:147
+msgid "Error occurred. Error code:"
+msgstr "Error ocurrido. Código del error:"
+
+#: stripe-payments-subscriptions/view/sub-update-cc-tpl.php:39
+msgid "Update Credit Card"
+msgstr "Actualizar tarjeta de crédito"

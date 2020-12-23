@@ -1,0 +1,104 @@
+.content-wrapper {
+	display: block;
+	left: 0;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.content {
+	position: relative;
+	display: table;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 100%;
+}
+
+#content.error {
+	color: red;
+}
+
+.content-center {
+	display: table-cell;
+	height: 100%;
+	vertical-align: middle;
+	width: 100%;
+}
+
+form {
+	max-width: 600px;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+#card-element {
+	background: white;
+	padding: .5em .6em;
+	border: 1px solid #ccc;
+	box-shadow: inset 0 1px 3px #ddd;
+	border-radius: 4px;
+	font-size: 100%;
+	min-height: 19.5px;
+}
+
+#error-cont {
+	border-radius: 4px;
+	padding: 15px;
+	background-color: red;
+	color: white;
+	display: none;
+}
+
+.form-err {
+	color: red;
+}
+
+#smoke-screen {
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	left: 0;
+	z-index: 100;
+	cursor: wait;
+	background: rgba(255, 255, 255, .3);
+}
+
+/* Small Spinner */
+
+.small-spinner {
+	box-sizing: border-box;
+	position: relative;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 7px solid #ccc;
+	border-top-color: #0078e7;
+	animation: small-spinner .6s linear infinite;
+}
+
+@keyframes small-spinner {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.small-spinner {
+		top: 50%;
+		position: fixed;
+	}
+	.coupon-spinner {
+		top: .5em;
+	}
+	#tax-shipping-cont {
+		padding-top: 20px;
+	}
+}

@@ -1,0 +1,939 @@
+# Copyright (C) 2020 Tips and Tricks HQ, alexanderfoxc
+# This file is distributed under the same license as the Stripe Payments Subscriptions Addon plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Stripe Payments Subscriptions Addon 2.0.24\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/asp-sub\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-11-03T20:04:35+02:00\n"
+"PO-Revision-Date: 2020-11-03T20:04:35+02:00\n"
+"X-Generator: WP-CLI 2.0.1\n"
+"X-Domain: asp-sub\n"
+
+#. Plugin Name of the plugin
+msgid "Stripe Payments Subscriptions Addon"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://s-plugins.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Adds Stripe Subscriptions support to the core plugin."
+msgstr ""
+
+#. Author of the plugin
+msgid "Tips and Tricks HQ, alexanderfoxc"
+msgstr ""
+
+#: inc/trait-asp-sub-process-webhook.php:199
+msgid "Regular payment made"
+msgstr ""
+
+#: inc/trait-asp-sub-process-webhook.php:208
+msgid "Trial period started"
+msgstr ""
+
+#: inc/trait-asp-sub-process-webhook.php:217
+msgid "Paid trial period started"
+msgstr ""
+
+#: inc/asp-sub-stripe-subs-class.php:58
+msgid "Subscription created"
+msgstr ""
+
+#: inc/asp-sub-stripe-subs-class.php:86
+#: inc/asp-sub-stripe-subs-class.php:138
+#: inc/asp-sub-stripe-subs-class.php:168
+#: inc/asp-subscription-class.php:17
+msgid "Subscription not found"
+msgstr ""
+
+#: inc/asp-sub-stripe-subs-class.php:145
+#: inc/asp-sub-stripe-subs-class.php:175
+#: inc/asp-subscription-class.php:51
+msgid "Subscription is not active"
+msgstr ""
+
+#. translators: %s is URL to settings page
+#: inc/class-asp-sub-webhooks.php:78
+msgid "<b>Stripe Payments Subscriptions Addon:</b> webhooks seem to be not configured properly. Please go to <a href=\"%s\">settings page</a> to configure them."
+msgstr ""
+
+#: inc/class-asp-sub-webhooks.php:95
+msgid "Stripe Payments core plugin version 1.9.15+ required for this functionality"
+msgstr ""
+
+#: inc/class-asp-sub-webhooks.php:122
+#: inc/class-asp-sub-webhooks.php:159
+#: inc/asp-sub-utils-class.php:42
+msgid "Nonce check failed. Please refresh page and try again."
+msgstr ""
+
+#: inc/class-asp-sub-webhooks.php:130
+msgid "Invalid mode specified"
+msgstr ""
+
+#: inc/class-asp-sub-webhooks.php:136
+msgid "Webhook exists"
+msgstr ""
+
+#: inc/class-asp-sub-webhooks.php:146
+msgid "Webhook has been created"
+msgstr ""
+
+#: inc/class-asp-sub-webhooks.php:172
+msgid "Webhooks have been deleted."
+msgstr ""
+
+#. translators: %s is `live` or `test` mode
+#: inc/class-asp-sub-webhooks.php:226
+msgid "Invalid API Key. Please check core plugins settings and enter valid key for %s mode."
+msgstr ""
+
+#: inc/class-asp-sub-webhooks.php:241
+msgid "Webhook exists. If you still have issues with webhooks, try to delete them and create again."
+msgstr ""
+
+#: inc/class-asp-sub-webhooks.php:250
+msgid "No webhook found. Use the button below to automatically create it."
+msgstr ""
+
+#: inc/class-asp-sub-webhooks.php:272
+msgid "Error occurred during webhook creation:"
+msgstr ""
+
+#: inc/asp-sub-utils-class.php:47
+msgid "Cache has been cleared."
+msgstr ""
+
+#: inc/asp-sub-utils-class.php:60
+msgid "day"
+msgstr ""
+
+#: inc/asp-sub-utils-class.php:60
+#: admin/asp-sub-plans-post-type.php:420
+#: admin/asp-sub-plans-post-type.php:483
+#: admin/asp-sub-plans-post-type.php:617
+msgid "days"
+msgstr ""
+
+#: inc/asp-sub-utils-class.php:61
+msgid "week"
+msgstr ""
+
+#: inc/asp-sub-utils-class.php:61
+#: admin/asp-sub-plans-post-type.php:421
+#: admin/asp-sub-plans-post-type.php:622
+msgid "weeks"
+msgstr ""
+
+#: inc/asp-sub-utils-class.php:62
+msgid "month"
+msgstr ""
+
+#: inc/asp-sub-utils-class.php:62
+#: admin/asp-sub-plans-post-type.php:422
+#: admin/asp-sub-plans-post-type.php:627
+msgid "months"
+msgstr ""
+
+#: inc/asp-sub-utils-class.php:93
+msgid "every"
+msgstr ""
+
+#: inc/asp-sub-utils-class.php:98
+msgid "Total:"
+msgstr ""
+
+#: inc/asp-sub-utils-class.php:101
+msgid "until cancelled"
+msgstr ""
+
+#. translators: %1$d is number, %2$s is days\weeks\months word
+#: inc/asp-sub-utils-class.php:106
+msgid "Free for %1$d %2$s, then"
+msgstr ""
+
+#: inc/class-asp-sub-update-cc-handler.php:42
+#: inc/class-asp-sub-cancel-handler.php:38
+#: inc/class-asp-sub-cancel-handler.php:73
+msgid "No subscription found."
+msgstr ""
+
+#: inc/class-asp-sub-update-cc-handler.php:50
+#: inc/class-asp-sub-cancel-handler.php:47
+#: inc/class-asp-sub-cancel-handler.php:80
+#: admin/asp-sub-subs-post-type.php:351
+msgid "Subscription is not active."
+msgstr ""
+
+#: inc/class-asp-sub-update-cc-handler.php:66
+msgid "No customer ID found for this subscription."
+msgstr ""
+
+#: inc/class-asp-sub-update-cc-handler.php:82
+#: inc/class-asp-sub-update-cc-handler.php:102
+#: inc/class-asp-sub-update-cc-handler.php:131
+#: admin/asp-sub-admin-menu.php:471
+msgid "Error occurred:"
+msgstr ""
+
+#: inc/class-asp-sub-update-cc-handler.php:109
+#: inc/class-asp-sub-update-cc-handler.php:138
+msgid "Your card details have been updated!"
+msgstr ""
+
+#: inc/class-asp-sub-update-cc-handler.php:155
+msgid "Current card on file: %1$s ending in %2$d"
+msgstr ""
+
+#: inc/class-asp-sub-update-cc-handler.php:163
+#: inc/class-asp-sub-update-cc-handler.php:184
+msgid "Update Card Details"
+msgstr ""
+
+#: inc/class-asp-sub-cancel-handler.php:28
+msgid "No token provided."
+msgstr ""
+
+#: inc/class-asp-sub-cancel-handler.php:59
+msgid "Are you sure want to cancel your subscription to <b>%s</b>?<p>Note this can't be undone.</p>"
+msgstr ""
+
+#: inc/class-asp-sub-cancel-handler.php:94
+msgid "Subscription has been cancelled."
+msgstr ""
+
+#: view/sub-update-cc-tpl.php:40
+msgid "Update Credit Card"
+msgstr ""
+
+#: view/sub-cancel-tpl.php:39
+msgid "Subscription Cancelation"
+msgstr ""
+
+#: view/sub-cancel-tpl.php:115
+msgid "Yes, cancel"
+msgstr ""
+
+#: view/sub-cancel-tpl.php:147
+msgid "Error occurred. Error code:"
+msgstr ""
+
+#. translators: %s is plan id
+#: admin/class-asp-sub-admin.php:23
+msgid "Can't find plan with ID %s</span>"
+msgstr ""
+
+#: admin/class-asp-sub-admin.php:25
+msgid "Plan"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:31
+msgctxt "Post Type General Name"
+msgid "Subscriptions"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:32
+msgctxt "Post Type Singular Name"
+msgid "Subscription"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:33
+msgid "Parent Subscription:"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:34
+#: admin/asp-sub-subs-post-type.php:46
+#: admin/asp-sub-admin-menu.php:142
+#: admin/asp-sub-admin-menu.php:451
+msgid "Subscriptions"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:35
+#: admin/asp-sub-subs-post-type.php:38
+msgid "View Subscription"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:36
+#: admin/asp-sub-subs-post-type.php:37
+msgid "Add New Subscription"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:39
+msgid "Update Subscription"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:40
+msgid "Search Subscriptions"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:41
+msgid "No subscriptions yet."
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:42
+#: admin/asp-sub-plans-post-type.php:40
+msgid "Not found in Trash"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:45
+msgid "subscriptions"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:96
+#: admin/asp-sub-subs-post-type.php:97
+msgid "Subscription updated."
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:98
+msgid "Subscription created."
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:99
+msgid "Subscription draft updated."
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:202
+#: admin/asp-sub-subs-post-type.php:317
+msgid "ID"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:203
+msgid "Subscription Date"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:204
+msgid "Subscription Plan"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:205
+msgid "Customer"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:206
+#: admin/asp-sub-subs-post-type.php:315
+msgid "Status"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:233
+msgid "Credit card expires at the end of current month"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:259
+#: admin/asp-sub-subs-post-type.php:305
+msgid "Test"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:288
+msgid "Subscription Details"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:289
+msgid "Events"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:290
+msgid "Manage Subscription"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:293
+msgid "Cancellation URL"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:294
+msgid "Update CC details URL"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:316
+msgid "Created"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:317
+msgid "View on Stripe"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:318
+msgid "Plan name"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:319
+msgid "Customer email"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:320
+msgid "Payments made"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:345
+msgid "You can use the button below to cancel the subscription. The subscription is canceled immediately once you confirm the cancellation."
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:346
+msgid "Are you sure want to cancel this subscription? This can't be undone"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:346
+msgid "Cancel Subscription"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:362
+msgid "You can send this URL to your customer so he\\she can cancel the subscription."
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:382
+msgid "You can send this URL to your customer so he\\she can update credit card details."
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:391
+msgid "No events yet."
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:405
+msgid "Date"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:406
+msgid "Event"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:407
+#: admin/asp-sub-plans-post-type.php:109
+#: admin/asp-sub-plans-post-type.php:328
+msgid "Amount"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:419
+msgid "Active"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:420
+msgid "Trialing"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:421
+msgid "Canceled"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:422
+msgid "Ended"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:423
+msgid "Incomplete"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:424
+msgid "Expired"
+msgstr ""
+
+#: admin/asp-sub-subs-post-type.php:425
+msgid "Cancelling"
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:29
+msgctxt "Post Type General Name"
+msgid "Subscription Plans"
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:30
+msgctxt "Post Type Singular Name"
+msgid "Subscription Plan"
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:31
+msgid "Parent Plan:"
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:32
+#: admin/asp-sub-plans-post-type.php:44
+msgid "Subscription Plans"
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:33
+msgid "View Plan"
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:34
+#: admin/asp-sub-plans-post-type.php:35
+msgid "Add New Plan"
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:36
+msgid "Edit Plan"
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:37
+msgid "Update Plan"
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:38
+msgid "Search Plan"
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:39
+msgid "No plans created yet."
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:43
+msgid "plans"
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:88
+#: admin/asp-sub-plans-post-type.php:89
+msgid "Plan updated."
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:90
+msgid "Plan created."
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:91
+msgid "Plan draft updated."
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:106
+msgid "Plan Name"
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:107
+#: admin/asp-sub-plans-post-type.php:280
+msgid "Mode"
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:108
+#: admin/asp-sub-plans-post-type.php:363
+msgid "Currency"
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:110
+msgid "Interval"
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:111
+msgid "Duration"
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:112
+msgid "Trial Days"
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:113
+msgid "Description"
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:210
+msgid "Variable (%s)"
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:218
+msgid "Variable"
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:281
+msgid "Price and Currency Settings"
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:282
+msgid "Billing Interval and Duration Settings"
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:283
+msgid "Trial Period Settings"
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:292
+msgid "Live mode"
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:294
+msgid "Test mode"
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:334
+msgid "Enter subscription price amount. This amount will be charged from the customers on every billing cycle."
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:338
+#: admin/asp-sub-plans-post-type.php:373
+msgid "Note: You won't be able to change this value once the plan is created and if plan is not variable."
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:344
+msgid "Make amount variable"
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:345
+msgid "Enables your customers to enter their own amount."
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:369
+msgid "Select plan currency."
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:379
+msgid "Make currency variable"
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:380
+msgid "Enables your customers to select currency."
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:391
+#: asp-sub-main.php:174
+#: asp-sub-main.php:225
+#: asp-sub-main.php:741
+msgid "Setup Fee"
+msgstr ""
+
+#. translators: %s is minimum core plugin version
+#: admin/asp-sub-plans-post-type.php:398
+#: admin/asp-sub-plans-post-type.php:496
+msgid "Update Stripe Payments plugin to version %s that supports this functionality."
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:407
+msgid "Enter one-time setup fee which is paid during initial plan payment. Put \"0\" if you don't want to add setup fee."
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:426
+msgid "Billing Interval"
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:440
+msgid "Enter billing interval. Customers subscribed to this plan will be charged accordingly. For example: if you specify \"30 days\", it means the customer will be charged every 30 days."
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:441
+msgid "Maximum billing interval cannot exceed 1 year (365 days or 52 weeks or 12 months)."
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:443
+msgid "Note: You won't be able to change this value once the plan is created."
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:455
+msgid "Duration (Optional)"
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:464
+msgid "Number of payments that will be charged before the customer's subscription is cancelled. Enter 0 if you want this plan's payment to continue until the subscription is canceled."
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:481
+msgid "Trial Duration"
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:485
+msgid "If you include a trial period, the customers won't be charged until the trial period ends. Put \"0\" if you don't offer trial period for this plan."
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:489
+#: asp-sub-main.php:181
+#: asp-sub-main.php:230
+#: asp-sub-main.php:746
+msgid "Trial Setup Fee"
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:503
+msgid "Enter one-time setup fee which is paid on trial period start. Put \"0\" if you don't want to add setup fee for your trial period."
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:527
+msgid "Stripe error occurred:"
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:544
+msgid "Please specify valid trial interval."
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:551
+msgid "Please specify valid duration."
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:577
+msgid "Please specify plan title."
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:582
+msgid "Please select plan currency."
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:590
+msgid "Please specify valid plan price."
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:599
+msgid "Please select valid interval."
+msgstr ""
+
+#: admin/asp-sub-plans-post-type.php:609
+msgid "Please specify valid interval."
+msgstr ""
+
+#. translators: %1$d is number of days\weeks\months, %2$s is "days"\"weeks"\"years"
+#: admin/asp-sub-plans-post-type.php:613
+msgid "Maximum billing interval cannot exceed %1$d %2$s"
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:39
+msgid "<b>Warning</b>: this option is currently not supported by Subscriptions add-on. When enabled, Stripe PHP SDK would still be used by the add-on."
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:56
+msgid "Subscriptions Settings"
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:59
+msgid "All plan payments"
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:61
+msgid "First plan payment only"
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:63
+msgid "All plan payments for %s month(s)"
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:64
+msgid "Specify how coupon discount should be applied to subscription payments."
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:106
+msgid "Checking..."
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:146
+msgid "Live Webhook Status"
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:158
+msgid "Live Webhook URL"
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:165
+msgid "This is live webhook URL."
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:171
+msgid "Live Webhook Signing Secret"
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:178
+msgid "Live webhook signing secret from your Stripe account."
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:184
+msgid "Test Webhook Status"
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:196
+msgid "Test Webhook URL"
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:203
+msgid "This is test webhook URL."
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:209
+msgid "Webhook Signing Secret"
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:216
+msgid "Webhook signing secret from your Stripe account."
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:222
+msgid "Test Webhook Signing Secret"
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:229
+msgid "Test webhook signing secret from your Stripe account."
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:235
+msgid "Delete Webhooks"
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:241
+msgid "Use this button if you have issues with webhooks or want to uninstall the addon."
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:247
+msgid "Clear Cache"
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:253
+msgid "Clear plans cache. Useful if you have updated plan details in your Stripe Dashboard and want the changes to be reflected on the site."
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:257
+msgid "Email Settings"
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:261
+msgid "Send Email On CC Expire"
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:267
+msgid "If enabled, email is sent to customer when his\\her credit card on file is going to expire soon."
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:272
+msgid "From Email Address"
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:278
+msgid "Enter email From address."
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:283
+msgid "Email Subject"
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:289
+msgid "Enter email subject."
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:294
+msgid "Current card's brand. Example: VISA, MasterCard."
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:295
+msgid "Current card's last 4 digits. Example: 1234"
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:296
+msgid "Current card's expiry month. Example: 8"
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:297
+msgid "Current card's expiry year. Example: 2020"
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:298
+msgid "URL that customer should visit to update credit card details."
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:308
+msgid "Email Body"
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:314
+msgid "Enter email body. You can use the following email tags in this email body field:"
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:320
+#: admin/asp-sub-admin-menu.php:374
+msgid "Subscription"
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:338
+#: admin/asp-sub-admin-menu.php:406
+msgid "(No plan)"
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:341
+#: admin/asp-sub-admin-menu.php:409
+msgid "[Test]"
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:350
+#: admin/asp-sub-admin-menu.php:418
+msgid "No subscription plans created yet. You need to <a href=\"post-new.php?post_type=asp_sub_plan\">create one</a> first."
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:353
+#: admin/asp-sub-admin-menu.php:423
+msgid "Plan ID:"
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:355
+#: admin/asp-sub-admin-menu.php:425
+msgid "Specify Stripe plan ID for this product. Leave it blank if you don't want to use subscription for the product."
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:371
+msgid "One-time payment"
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:470
+msgid "Clearing..."
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:472
+msgid "Creating webhook..."
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:473
+msgid "Deleting..."
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:482
+msgid "Displays subscription cancellation URL"
+msgstr ""
+
+#: admin/asp-sub-admin-menu.php:483
+msgid "Displays update credit card URL"
+msgstr ""
+
+#: asp-sub-main.php:143
+msgid "Your credit card is going to expire soon"
+msgstr ""
+
+#: asp-sub-main.php:144
+msgid ""
+"Hello.\n"
+"\n"
+"Your credit card {card_brand} ending in {card_last_4} is going to expire on {card_exp_month}/{card_exp_year}.\n"
+"\n"
+"Please click the link below to update it:\n"
+"{update_cc_url}"
+msgstr ""
+
+#: asp-sub-main.php:274
+msgid "Invalid product ID provided."
+msgstr ""
+
+#: asp-sub-main.php:283
+msgid "No payment source provided."
+msgstr ""
+
+#: asp-sub-main.php:292
+msgid "No plan ID specified."
+msgstr ""
+
+#: asp-sub-main.php:522
+msgid "Setup fee"
+msgstr ""
+
+#: asp-sub-main.php:535
+msgid "Trial setup fee"
+msgstr ""
+
+#: asp-sub-main.php:776
+msgid "setup fee"
+msgstr ""
+
+#: asp-sub-main.php:791
+msgid " (tax per payment)"
+msgstr ""
+
+#: asp-sub-main.php:870
+msgid "Start trial for %s"
+msgstr ""
+
+#: asp-sub-main.php:877
+msgid "(trial)"
+msgstr ""
+
+#: asp-sub-main.php:906
+msgid "Cancel subscription"
+msgstr ""
